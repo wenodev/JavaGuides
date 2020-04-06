@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.payment;
 
 public class CashPayment implements Payment {
 

@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.payment;
 
 public class CreditPayment implements Payment {
     @Override

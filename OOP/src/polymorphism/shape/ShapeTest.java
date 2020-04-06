@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.shape;
 
 class Shape {
     void draw() {
@@ -21,7 +21,7 @@ class Triangle extends Shape {
     }
 }
 
-public class PolymorphismTest2 {
+public class ShapeTest {
 
     public static void main(String[] args) {
         Shape shape;

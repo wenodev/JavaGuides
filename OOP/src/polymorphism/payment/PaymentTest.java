@@ -1,6 +1,10 @@
-package polymorphism;
+package polymorphism.payment;
 
-public class Polymorphism {
+import polymorphism.payment.CashPayment;
+import polymorphism.payment.CreditPayment;
+import polymorphism.payment.Payment;
+
+public class PaymentTest {
     public static void main(String[] args) {
         Payment cash1 = new CashPayment();
         cash1.pay();
