@@ -4,6 +4,10 @@ public class Animal {
 
     int id;
 
+    public Animal(){
+        System.out.println("Animal");
+    }
+
     public int getId(){
         return id;
     }
