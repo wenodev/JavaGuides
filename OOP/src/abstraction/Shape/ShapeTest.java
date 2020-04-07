@@ -1,5 +1,7 @@
 package abstraction.Shape;
 
+import javax.xml.bind.SchemaOutputResolver;
+
 public class ShapeTest {
     public static void main(String[] args) {
         Shape shape1 = new Circle("red", 2.2);
