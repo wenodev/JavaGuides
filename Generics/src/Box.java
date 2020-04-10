@@ -1,11 +1,11 @@
-public class Box {
-    private Object object;
+public class Box <T> {
+    private T t;
 
-    public Object getObject() {
-        return object;
+    public void set(T t) {
+        this.t = t;
     }
 
-    public void setObject(Object object) {
-        this.object = object;
+    public T get() {
+        return t;
     }
 }
