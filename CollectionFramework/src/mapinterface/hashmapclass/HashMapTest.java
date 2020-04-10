@@ -111,8 +111,6 @@ public class HashMapTest {
                 System.out.println(itr.next());
             }
         }
-
-
     }
 
     public static void main(String[] args) {
