@@ -1,16 +1,22 @@
-public class BoxTest {
+public class BoxTest<T> {
+    private T t;
+
+    public void set(T t) {
+        this.t = t;
+    }
+
+    public T get() {
+        return t;
+    }
+
     public static void main(String[] args) {
-
-        Box type = new Box();
+        BoxTest<String> type = new BoxTest<>();
         type.set("String");
-        System.out.println(type.get());
 
-        Box type1 = new Box();
+        BoxTest<Integer> type1 = new BoxTest<>();
         type1.set(100);
-        System.out.println(type1.get());
-
-//        String str = (String) type1.get();
-//        System.out.println(str);
-
+  
+//       Integer integer = (Integer) type.get(); // compiler error
+//        System.out.println(integer);
     }
 }
