@@ -43,7 +43,7 @@ public class 완주하지못한선수 {
             }
         });
         System.out.println(answer.get());
-        return null;
+        return answer.get();
     }
 
 }
