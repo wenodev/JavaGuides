@@ -17,6 +17,13 @@ public class DatabaseInitializer implements InitializingBean, DisposableBean {
 
     private List<User> listOfUsers = new ArrayList<User>();
 
+    public DatabaseInitializer(){
+        System.out.println(  "DatabaseInitializer 생성"  );
+    }
+
+
+
+
     public void afterPropertiesSet() throws Exception{
 
         User user = new User(1, "User");
