@@ -2,7 +2,9 @@ package weno.lazyAnnoExample;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AppConfig {
 
     @Lazy(value = true)
