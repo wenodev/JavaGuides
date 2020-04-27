@@ -47,7 +47,7 @@ public class Hibernate5MySqlCrudRestApiTutorialApplicationTests {
 
 	@Test
 	public void testGetUserById() {
-		User user = restTemplate.getForObject(getRootUrl() + "/users/1", User.class);
+		User user = restTemplate.getForObject(getRootUrl() + "/api/v1/users/1", User.class);
 		System.out.println(user.getFirstName());
 		assertNotNull(user);
 	}
