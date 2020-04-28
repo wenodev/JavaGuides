@@ -24,8 +24,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().withUser("ramesh").password("{noop}ramesh").roles("USER").and().withUser("admin")
-                .password("{noop}admin").credentialsExpired(true).accountExpired(true).accountLocked(true)
+        auth
+                .inMemoryAuthentication()
+                .withUser("ramesh").password("{noop}ramesh").roles("USER")
+                .and()
+                .withUser("admin").password("{noop}admin").credentialsExpired(true).accountExpired(true).accountLocked(true)
                 .authorities("WRITE_PRIVILEGES", "READ_PRIVILEGES").roles("ADMIN");
     }
 }
