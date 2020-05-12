@@ -2,5 +2,4 @@
 .gitignore
 pom.xml
 src/main/java/util
-target
-target/generated-sources/
+target/
