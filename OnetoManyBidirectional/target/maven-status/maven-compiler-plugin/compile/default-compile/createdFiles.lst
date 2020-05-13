@@ -1,0 +1,6 @@
+dao\InstructorDao.class
+entity\Course.class
+util\HibernateUtil.class
+entity\Instructor.class
+MainApp.class
+dao\CourseDao.class
