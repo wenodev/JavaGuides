@@ -1,7 +1,0 @@
-
-.gitignore
-pom.xml
-src/main/java/util/
-src/main/resources/
-src/test/
-target/
