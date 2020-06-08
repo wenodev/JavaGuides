@@ -19,7 +19,6 @@ public class test1 {
                 System.out.println("if");
             }else{
                 System.out.println("else");
-
             }
         }
 
