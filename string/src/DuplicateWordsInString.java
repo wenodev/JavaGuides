@@ -41,7 +41,6 @@ public class DuplicateWordsInString {
 
         duplicateWords("Super Man Bat Man Spider Man");
 
-
     }
 
 }
