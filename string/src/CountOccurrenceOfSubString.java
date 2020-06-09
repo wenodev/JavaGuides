@@ -1,6 +1,5 @@
 public class CountOccurrenceOfSubString {
 
-
     public static void main(String[] args) {
         int count = countOccurrenceOf("javadevelopersguides", "java");
         System.out.println("Count number of occurrences of substring 'java' " + " in string 'javadevelopersguides' : " + count);
