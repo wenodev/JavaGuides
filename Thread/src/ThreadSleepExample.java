@@ -3,7 +3,6 @@ public class ThreadSleepExample {
         System.out.println("Thread main started : " + Thread.currentThread().getName());
 
 
-        
         final Thread thread1 = new Thread(new WorkerThread("1"));
         thread1.setName("Worker Thread 1");
 
@@ -12,7 +11,6 @@ public class ThreadSleepExample {
 
         thread1.start();
         thread2.start();
-
 
 
         System.out.println("Thread main finished : " + Thread.currentThread().getName());
