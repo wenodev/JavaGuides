@@ -1,4 +1,4 @@
-# JavaGudes 예시 코드 작성을 통한 기초 실력 다지기
+# JavaGuides 예시 코드 작성을 통한 기초 실력 다지기
 블로그 링크 : (https://www.javaguides.net)
 ### 목표
 - JVM 구조 파악하기
