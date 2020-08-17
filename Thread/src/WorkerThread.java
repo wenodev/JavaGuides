@@ -12,7 +12,6 @@ public class WorkerThread implements Runnable{
         for(int i =0; i<5; i++){
             System.out.println(Thread.currentThread().getName() + "   data = " + name + " message num : " + i);
         }
-
         try{
             Thread.sleep(200);
         }catch (InterruptedException e){
